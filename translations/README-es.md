@@ -6,7 +6,7 @@
 >*¡La mejor de las suertes para ti!*
 
 Traducciones:
-- [Ingles](./README-es.md)
+- [Ingles](./README.md)
 
 
 # Tabla de contenido
@@ -18,15 +18,15 @@ Traducciones:
 - [Descripción de la Carrera](#descripcion-de-la-carrera)
 - [Universidad vs. Realidad](#universidad-vs.-realidad)
 - [Antes de iniciar](#antes-de-iniciar)
-1. Primer Año
-  - Algoritmos y Estructura de Datos
+* Primer Año
+  - [Algoritmos y Estructura de Datos](#algoritmos-y-estructura-de-datos)
   - Tecnología Aplicada
   - Algebra y Geometría Analítica
   - Teoría de Sistemas y Organizaciones
   - Matemática Discreta
   - Programación con Objetos I (Correlativa de Algoritmos)
   - Arquitectura de Computadores I (Correlativa de Tecnología Aplicada)
-2. Segundo Año
+* Segundo Año
   - Análisis Matemático I (Correlativa de Algebra)
   - Probabilidad y Estadística (Correlativa de Análisis Matemático I)
   - Base de Datos I (Correlativa de Algoritmos y Matemática Discreta)
@@ -36,7 +36,7 @@ Traducciones:
   - Lenguajes Formales (Correlativa de Matemática Discreta)
   - Arquitectura de Computadores II (Correlativa de Arquitectura de Computadores I)
   - Comunicación y Redes I (Correlativa Arquitectura de Computadores I)
-3. Tercer Año
+* Tercer Año
   - Análisis Matemático II (Correlativa de Análisis Matemático I)
   - Matemática Aplicada (Correlativa de Análisis Matemático II)
   - Comunicación y Redes II (Correlativa de Redes I)
@@ -47,7 +47,7 @@ Traducciones:
   - Base de Datos II (Correlativa de Base de Datos I y Sistemas Operativos I)
   - Explotación de Datos (Correlativa de Base de Datos II)
   - Ingeniería de Software II (Correlativa de Ingeniería de Software I)
-4. Cuarto año
+* Cuarto año
   - Modelos, Simulación y Teoría de la Decisión (Correlativa de )
   - Dirección y Evaluación de Proyectos Informáticos (Correlativa de)
   - Arquitectura de Software III (Correlativa de )
@@ -57,7 +57,7 @@ Traducciones:
   - Desarrollo de Compiladores (Correlativa de)
   - Inteligencia Artificial (Correlativa de )
   - Practica Profesional (Correlativa de)
-5. Quinto Año
+* Quinto Año
   - Ingeniería de Software III (Correlativa de )
   - Sistemas de Tiempo Real y Misión Critica (Correlativa de )
   - Seguridad y Auditoria (Correlativa de )
@@ -95,7 +95,7 @@ Estoy usando el tema especial de markdown de Github, incluyendo listas de tareas
 
 >`git checkout -b progress`
 
->`git remote add jwasham https://github.com/jwasham/coding-interview-university`
+>`git remote add Phosphorus-M https://github.com/Phosphorus-M/Study-program-of-the-UNO-Universidad-Nacional-del-Oeste-`
 
 >`git fetch --all`
 
@@ -105,7 +105,7 @@ Marque todas las cajas con una x después de que completa los cambios
 
 >`git commit -m "Marked x" `
 
->`git rebase jwasham/master `
+>`git rebase Phosphorus-M/master `
 
 >`git push --force `
 
@@ -163,11 +163,19 @@ También podrá realizar tareas como docente universitario en Informática en to
 Tras la descripción básica de la carrera que la universidad nos brinda hay que analizar bien el hecho de para que sirve y que sucede a decir de verdad dentro de la misma.
 La carrera es extensa, tiene unos buenos premios, 3 títulos, el primero que es recibido tras finalizar segundo año es el certificado de "Diplomado en Informática", tras finalizar todo tercer año se recibe el titulo de "Analista en Informática" y finalizando la carrera "Licenciatura en Informática". Como es sabido en carreras de este tipo con gran carga horaria  y carreras en la que hay que brindar una gran motivación por lo que se hace o se terminan abandonando, el titulo no implica que se pueda conseguir un trabajo bueno.
 Explicare los motivos fundamentales:
-  - La idea no es ser programador. Si bien hay muchas materias de programación, no significa que salgas siendo programador. El contenido que uno debe saber manejar para ser considerado un buen programador es mucho, mucho más del que cubre la carrera, en la carrera no se ve ni un solo framework, ni front-end ni back-end, se obtiene conceptos importantes para cualquiera que tenga que estar metido en el tema. Temas como la complejidad computacional de un código si son refinados a lo largo de la carrera. Sin embargo a la hora de conseguir un trabajo dependiendo del trabajo a ocupar podrás hacer uso de esta capacidad.
-La mayoría de los docentes tienen un desempeño y nivel académico bastante destacable. Esto sin embargo no influye en la totalidad de las materias.
+  - La idea no es ser programador. Si bien hay muchas materias de programación, no significa que salgas siendo programador. El contenido que uno debe saber manejar para ser considerado un buen programador es mucho, mucho más del que cubre la carrera, en la carrera no se ve ni un solo framework, ni front-end ni back-end, se obtiene conceptos importantes para cualquiera que tenga que estar metido en el tema. Temas como la complejidad computacional de un código si son refinados a lo largo de la carrera. A la hora de conseguir un trabajo dependiendo del trabajo a ocupar podrás hacer uso de esta capacidad sin embargo estos trabajos suelen ser la minoria.
+  - Hay varias materias basadas en la idea de que nosotros vamos a ser dueños de una PyMES o una startup. No veo mal que existan pero veo mal que se las considere como fundamentales para nuestro titulo.
+  - La mayoría de los docentes tienen un desempeño y nivel académico bastante destacable. Esto sin embargo, no influye en la totalidad de las materias. Por un sencillos motivo, algunos docentes están enseñando materias que no son su especificación, años de trabajo en areas relacionadas a la explotación de datos para terminar dando clases de programación orientada a objetos. Obviamente no enseñaría con la misma pasión que si estuvieran en su area.
+  - Programación. Lo que sucede con esto es que como he dicho. La programación implica mucho, es un campo que se incrementa la cantidad de información día a día, no basta con lo básico y si de por si lo básico se enseña de forma incompleta es un problema. Principalmente hablo de Algoritmos con esto ultimo, es una materia que como verán más adelante tiene 4 meses para explicar los fundamentos de la programación básica y empieza dedicándole un mes entero a diagramas de flujos, comprendo que pueda necesitarse la idea más adelante. Pero seamos honestos los diagramas no tienen una forma exacta de hacerse, son bastante intuitivos usualmente, lo desees o no nadie usara el mismo sistema de diagramación, seria mucho mejor que se dedique ese mes extra a programar en el lenguaje que se enseña en esa materia, C. Lo digo por el hecho de que la co-relatividad en este apartado es ... raro... tienen que dar como base un concepto muy importante llamado estructuras para poder finalizar la materia, de esa forma los que hayan aprobado se les sera más fácil comprender lo que son objetos. Pero no, el tema no es enseñado y ni siquiera es nombrado, por lo cual conlleva que el estudiante que nunca decidió buscar por su cuenta las especificaciones del lenguaje o estudio otro lenguaje de programación el concepto de objetos sea muy abstracto para ellos.
+  - El programa. El contenido de la materia es el mismo pero dependiendo de con que profesor curses el programa es demasiado flexible, puedes empezar por ejemplo las clases de Programación Orientada a Objetos teniendo una actividad que implica usar la herencia y leer archivos sin explicar los fundamentos de la orientación a objetos, que es herencia o por lo menos como funciona el lenguaje de programación. Este ejemplo que doy es muy discutido por alumnos lamentablemente pero es unicamente bajo este tipo de materias en las que sucede por lo que comentan todos.
 
+En definitiva la carrera tiene problemas, eso esta más que asumido pero en definitiva es una carrera complicada, dudo mucho que haya una universidad que sepa abordar bien todos los temas que deberían verse a lo largo del plazo estudiantil para asegurar que el alumnado consiga un empleo con unicamente visto en las cursadas. Al menos en el campo de la programación.
+Por lo que considero que la carrera es buena, la enseñan bastante bien, hay casos por supuesto que se hace notar muy fácilmente que algo no funciona.
+Pero siendo sincero eso ocurre en todos lados, no unicamente en esta universidad.
+Es importante aclarar esto ya que la idea no es que te formes como Informático en si, sino quiero entender de que es una orientación para ser Investigador en el campo, muchos temas no se van a conseguir a ver pero por un hecho que es imposible, en algunos empleos piden que uno sea un programador Senior y eso se consigue tras casi 8 años de trabajar en un mismo entorno. A lo sumos habrá post-grados pero **es imposible que la carrera abarque todas las ramas de forma detallada** y todas las posibilidades de esta materia tan compleja como lo es la Informática.
+Por eso se enseñan las bases de todo, para que a partir de esas bases se logre investigar y comprender de manera más sencilla el resto del contenido por más que no haya sido enseñado durante alguna materia.
 
-
+Si tu idea es hacer la carrera y estudiar el programa con la idea de que vas a conseguir trabajo unicamente con esto puede que no sea así, puede que haya contenido de más o contenido faltante. Depende de lo que se este buscando pero en general **la carrera es lo suficientemente buena como para explicar un poco de todo**.
 
 # Antes de iniciar
 
@@ -230,3 +238,39 @@ Cada tarjeta puede tener distinto formato pero lo importante es que sus anotacio
 
 Hay muchas distracciones le pueden quitar tiempo valioso. Enfocarse y concentrarse es difícil.
 **¡Lo digo por experiencia!** (Y mucha...).
+
+# Primer Año
+
+## Algoritmos y Estructura de Datos
+La materia como se divide principalmente en dos aspectos fundamentales se basara en eso este repositorio. Los mismos son **Diagrama de Flujo** y **Programación en C**.
+Habrá 2 evaluaciones y 1 trabajo practico que se deberá entregar en una primera instancia y se habrá que modificar un par de semanas después considerándolo una segunda parte del trabajo practico.
+
+Siendo la primera materia de programación dentro de la carrera se explicara con diagrama de flujo los conceptos de entrada, salida, variables, condiciones, jerarquía matemática y ciclos(Exceptuando el bucle For Each).
+
+_Tras pasado un mes aproximadamente tomaran un parcial de Diagrama de flujo._
+
+Posiblemente lo más complicado que puedan evaluar ese primer examen es el realizar una algoritmo en el cual se retire una cantidad de dinero, el mismo mostrara un mensaje cuando ya no haya dinero y posiblemente hace al finalizar el algoritmo habría que entregar un mensaje diciendo cuales fueron las transacciones de mayor dinero y las de menor dinero.
+___
+Tras llegar empezada la segunda parte de la materia empezaran a ver el [lenguaje de programación C](https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n).
+Se explicara el como definir una constante, incluir una librería, declarar una variable, hacer uso de la sintaxis del if, else, switch, while, do while, for, se explica el uso de las referencias y los punteros, la idea básica de vectores, matrices y de la programación funcional.
+Se trabajara además de la librería stdio con la librería conio, string y math.
+*No obstante no se contempla ni el concepto de estructura, ni de memoria dinamica.*
+
+
+____
+Actividades:
+[Actividades de Algoritmos - UNO - 2016](https://github.com/Phosphorus-M/Study-program-of-the-UNO-Universidad-Nacional-del-Oeste-/tree/master/activitys)
+
+Material Didáctico extra:
+[Introducción a los Lenguajes de Programación - DesarrolloWeb](https://youtu.be/QIMhN4fzyYE)
+[Variables y Tipos de Datos - DesarrolloWeb](https://youtu.be/W4DY3ZspLC4) [VIDEO]
+[Algoritmo - Fundamentos de la programacion - DesarrolloWeb](https://youtu.be/YFdXfehe2bo) [VIDEO]
+[Alternativas y repeticiones - DesarrolloWeb](https://youtu.be/JwZT8L-0_gU) [VIDEO]
+[Repeticiones, bucles - DesarrolloWeb](https://youtu.be/L8HGNuKrvJo) [VIDEO]
+[Subprogramación - DesarrolloWeb](https://youtu.be/dHwoi6FXOEs) [VIDEO]
+[Desarrollando en C - makigas](https://www.youtube.com/playlist?list=PLTd5ehIj0goMZ33qJ7JmuXjSO8RoefiZS) [VIDEO]
+[Tutorial de C - makigas](https://www.youtube.com/channel/UCQufRmIMRTLdRxTsXCh4-5w)
+[Programación desde cero con Diagramas de Flujo - Programación ATS](https://www.youtube.com/playlist?list=PLWtYZ2ejMVJnpjQFWykrPcVOycJLVP2cG) [VIDEO]
+[Aprende Programación en C - Programación ATS](https://www.youtube.com/playlist?list=PLWtYZ2ejMVJmUTNE2QVaCd1y_6GslOeZ6) [VIDEO]
+[Algoritmos en PSeInt - Programación ATS](https://www.youtube.com/playlist?list=PLWtYZ2ejMVJlACGFXj4zpJ8cWdSjF05tm) [VIDEO]
+[Practice-c - jwasham](https://github.com/jwasham/practice-c) [CÓDIGO]
